@@ -9,9 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let hikes = [Hike(name: "Salmonberry Trail", photo: "m", miles: 6.0),
-     Hike(name: "Tom Dick and Hary Mountain", photo: "m", miles: 8.0),
-    Hike(name: "Tamanwas Falls", photo: "m", miles: 10.0)]
+    let hikes = [
+        Hike(name: "Salmonberry Trail", photo: "m", miles: 6.0),
+        Hike(name: "Tom Dick and Hary Mountain", photo: "m", miles: 8.0),
+        Hike(name: "Priya Roy", photo: "m", miles: 10.0)]
     
     var body: some View {
         NavigationStack {
@@ -19,10 +20,9 @@ struct ContentView: View {
                 NavigationLink(value: hike) {
                     HikeCellView(hike: hike)
                 }
-                
             }.navigationTitle("Hikes")
                 .navigationDestination(for: Hike.self){ hike in
-                    Text("\(hike.name)")
+                    HikeDetailScreen(hike: hike)
                 }
         }
     }

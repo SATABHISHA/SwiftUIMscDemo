@@ -15,6 +15,7 @@
 		D580E9A72D663BEA00D0BD69 /* SwiftUiMscDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D580E9A62D663BEA00D0BD69 /* SwiftUiMscDemoUITests.swift */; };
 		D580E9A92D663BEA00D0BD69 /* SwiftUiMscDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D580E9A82D663BEA00D0BD69 /* SwiftUiMscDemoUITestsLaunchTests.swift */; };
 		D5999D0C2D66A73100CDB667 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5999D0B2D66A73100CDB667 /* Hike.swift */; };
+		D5A568E22D7D507100312529 /* HikeDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A568E12D7D507100312529 /* HikeDetailScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D580E9A62D663BEA00D0BD69 /* SwiftUiMscDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiMscDemoUITests.swift; sourceTree = "<group>"; };
 		D580E9A82D663BEA00D0BD69 /* SwiftUiMscDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiMscDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D5999D0B2D66A73100CDB667 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		D5A568E12D7D507100312529 /* HikeDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetailScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D580E98E2D663BEA00D0BD69 /* Assets.xcassets */,
 				D580E9902D663BEA00D0BD69 /* SwiftUiMscDemo.entitlements */,
 				D580E9912D663BEA00D0BD69 /* Preview Content */,
+				D5A568E12D7D507100312529 /* HikeDetailScreen.swift */,
 			);
 			path = SwiftUiMscDemo;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5999D0C2D66A73100CDB667 /* Hike.swift in Sources */,
+				D5A568E22D7D507100312529 /* HikeDetailScreen.swift in Sources */,
 				D580E98D2D663BE700D0BD69 /* ContentView.swift in Sources */,
 				D580E98B2D663BE700D0BD69 /* SwiftUiMscDemoApp.swift in Sources */,
 			);
