@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19EB574E2D80038D004D0B64 /* StateBindingObservableDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EB574D2D80038D004D0B64 /* StateBindingObservableDemo.swift */; };
 		D580E98B2D663BE700D0BD69 /* SwiftUiMscDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D580E98A2D663BE700D0BD69 /* SwiftUiMscDemoApp.swift */; };
 		D580E98D2D663BE700D0BD69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D580E98C2D663BE700D0BD69 /* ContentView.swift */; };
 		D580E98F2D663BEA00D0BD69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D580E98E2D663BEA00D0BD69 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19EB574D2D80038D004D0B64 /* StateBindingObservableDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBindingObservableDemo.swift; sourceTree = "<group>"; };
 		D580E9872D663BE700D0BD69 /* SwiftUiMscDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiMscDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D580E98A2D663BE700D0BD69 /* SwiftUiMscDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiMscDemoApp.swift; sourceTree = "<group>"; };
 		D580E98C2D663BE700D0BD69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				D580E9902D663BEA00D0BD69 /* SwiftUiMscDemo.entitlements */,
 				D580E9912D663BEA00D0BD69 /* Preview Content */,
 				D5A568E12D7D507100312529 /* HikeDetailScreen.swift */,
+				19EB574D2D80038D004D0B64 /* StateBindingObservableDemo.swift */,
 			);
 			path = SwiftUiMscDemo;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				D5A568E22D7D507100312529 /* HikeDetailScreen.swift in Sources */,
 				D580E98D2D663BE700D0BD69 /* ContentView.swift in Sources */,
 				D580E98B2D663BE700D0BD69 /* SwiftUiMscDemoApp.swift in Sources */,
+				19EB574E2D80038D004D0B64 /* StateBindingObservableDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
